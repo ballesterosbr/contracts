@@ -1,7 +1,7 @@
 pragma solidity ^0.5.0;
 
 contract GasLimitDos {
-    
+
     struct Payee {
         address payable addr;
         uint256 value;
@@ -47,7 +47,7 @@ contract GasLimitDos {
         }
         nextPayeeIndex = i;
     }
-    
+
     function getPayee(uint256 _index) public view returns(address, uint256) {
         return (payees[_index].addr, payees[_index].value);
     }

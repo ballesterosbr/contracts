@@ -2,7 +2,7 @@ pragma solidity ^0.5.0;
 
 contract AuctionAttack {
     
-    address _reentrancy = 0xE958D39c97216b45b46dC45c846931F12E99D78F;
+    address _reentrancy = <auction_address>;
     
     function attack() public payable {
         

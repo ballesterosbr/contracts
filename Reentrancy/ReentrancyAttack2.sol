@@ -2,7 +2,7 @@ pragma solidity ^0.5.0;
 
 contract ReentrancyAttack2 {
     
-    address _reentrancy = 0x0DCd2F752394c41875e259e00bb44fd505297caF;
+    address _reentrancy = <reentrancy_address>;
     bytes4 selector1 = 0x5218195a;
     bytes4 selector2 = 0x7362377b;
 

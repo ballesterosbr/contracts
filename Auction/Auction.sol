@@ -1,5 +1,6 @@
 pragma solidity ^0.5.0;
 
+// VULNERABLE
 contract Auction {
     
     address payable currentLeader;
